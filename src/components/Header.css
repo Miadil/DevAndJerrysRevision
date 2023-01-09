@@ -1,0 +1,16 @@
+.navUl {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.navLi {
+	padding: 10px;
+}
+.navLogo {
+	width: 50px;
+}
+.navGlobal {
+	display: flex;
+	justify-content: space-between;
+}
