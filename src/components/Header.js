@@ -6,7 +6,7 @@ import "./Header.css"
 
 const Header = () => {
 	return (
-		<div>
+		<header className="navHeaderGlob">
 			<nav className="navGlobal">
 				<img className="navLogo" src={logo} alt="logo du site web" />
 				<ul className="navUl">
@@ -24,7 +24,8 @@ const Header = () => {
 					</li>
 				</ul>
 			</nav>
-		</div>
+			<div className="degrader"></div>
+		</header>
 	)
 }
 
